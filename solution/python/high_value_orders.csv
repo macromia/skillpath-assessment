@@ -1,0 +1,5 @@
+order_id,customer_id,category,unit_price,quantity,timestamp
+O-1002,C-002,Electronics,199.99,1,2025-03-02T12:00:00Z
+O-1008,C-002,Electronics,149.50,1,2025-03-04T13:15:00Z
+O-1012,C-009,Electronics,299.99,1,2025-03-06T11:10:00Z
+O-1015,C-001,Electronics,79.99,2,2025-03-07T16:45:00Z

@@ -15,7 +15,7 @@ A CSV file with a header row. Fields:
 * `quantity` (integer)
 * `timestamp` (ISO 8601 string)
 
-**Example** (`orders.csv`):
+**Example** ([`orders.csv`](orders.csv)):
 
 ```
 order_id,customer_id,category,unit_price,quantity,timestamp
@@ -28,7 +28,7 @@ O-1003,C-003,Toys,9.50,5,2025-03-02T14:20:00Z
 
 Implement a small program (in **Python or Java**) that:
 
-1. **Parses orders** from the CSV into an **`Order` class** (OOP) with private fields, constructor, and getters; include a method `total()` that returns `unit_price * quantity`.
+1. **Parses orders** from the CSV into an **`Order` class** with private fields, constructor, and getters; include a method `total()` that returns `unit_price * quantity`.
 2. **Aggregates analytics**:
 
    * `total_revenue` (sum of all `total()`)
@@ -56,7 +56,32 @@ Implement a small program (in **Python or Java**) that:
 ### Output Files
 
 * `summary.json`
+
+```json
+{
+  "total_revenue": 1347.93,
+  "average_order_value": 89.86,
+  "orders_per_category": {
+    "Books": 3,
+    "Electronics": 5,
+    "Toys": 3,
+    "Home & Garden": 2,
+    "Clothing": 2
+  },
+  "top_category_by_revenue": "Electronics"
+}
+```
+
 * `high_value_orders.csv`
+
+```
+order_id,customer_id,category,unit_price,quantity,timestamp
+O-1002,C-002,Electronics,199.99,1,2025-03-02T12:00:00Z
+O-1008,C-002,Electronics,149.50,1,2025-03-04T13:15:00Z
+O-1012,C-009,Electronics,299.99,1,2025-03-06T11:10:00Z
+O-1015,C-001,Electronics,79.99,2,2025-03-07T16:45:00Z
+```
+
 
 ### Constraints & Tips
 
@@ -71,19 +96,19 @@ Implement a small program (in **Python or Java**) that:
 
 You may start from these minimal stubs.
 
-##### Python
+#### Python
 
 [models.py](starter-code/python/models.py)
 
 [process_orders.py](starter-code/python/process_orders.py)
 
-##### Java
+#### Java
 
 [Order.java](starter-code/java/Order.java)
 
 [OrderProcessor.java](starter-code/java/OrderProcessor.java)
 
-# Auto‑Grading Rubric & Logic
+### Auto‑Grading Rubric & Logic
 
 | Skill Being Assessed                         | Auto‑Grading Check        | Logic for Verification / Criteria for Mastery                                                                                                                                                               |
 | -------------------------------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

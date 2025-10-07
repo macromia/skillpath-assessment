@@ -1,0 +1,12 @@
+{
+  "total_revenue": 1347.93,
+  "average_order_value": 89.86,
+  "orders_per_category": {
+    "Books": 3,
+    "Electronics": 5,
+    "Toys": 3,
+    "Home & Garden": 2,
+    "Clothing": 2
+  },
+  "top_category_by_revenue": "Electronics"
+}
