@@ -27,7 +27,7 @@ The program will receive a CSV file containing e-commerce order data. The file i
 * `quantity` (integer)
 * `timestamp` (ISO 8601 string)
 
-**Example** ([`orders.csv`](orders.csv)):
+**Example** ([`orders.csv`](https://github.com/macromia/skillpath-assessment/blob/main/orders.csv)):
 
 ```
 order_id,customer_id,category,unit_price,quantity,timestamp
@@ -111,13 +111,13 @@ To help you get started, minimal template files are provided for both Python and
 
 #### Python
 
-* [`models.py`](starter-code/python/models.py) – defines the `Order` class and related data structures.
-* [`process_orders.py`](starter-code/python/process_orders.py) – handles command-line arguments, file I/O, and analytics logic.
+* [`models.py`](https://github.com/macromia/skillpath-assessment/blob/main/starter-code/python/models.py) – defines the `Order` class and related data structures.
+* [`process_orders.py`](https://github.com/macromia/skillpath-assessment/blob/main/starter-code/python/process_orders.py) – handles command-line arguments, file I/O, and analytics logic.
 
 #### Java
 
-* [`Order.java`](starter-code/java/Order.java) – defines the `Order` class and its core behavior.
-* [`OrderProcessor.java`](starter-code/java/OrderProcessor.java) – implements data parsing, analytics, and output generation.
+* [`Order.java`](https://github.com/macromia/skillpath-assessment/blob/main/starter-code/java/Order.java) – defines the `Order` class and its core behavior.
+* [`OrderProcessor.java`](https://github.com/macromia/skillpath-assessment/blob/main/starter-code/java/OrderProcessor.java) – implements data parsing, analytics, and output generation.
 
 
 ### Auto‑Grading Rubric & Logic
