@@ -2,11 +2,23 @@
 
 ## Scenario: Retail Analytics Mini‑Pipeline
 
->You’ve joined **Acme Retail** as a junior software developer. Your first task is to build a tiny analytics pipeline that reads a CSV of e‑commerce orders, performs some calculations, and writes results for a business analyst to review.
+>You’ve joined Acme Retail as a junior software developer. Your first assignment is to implement a small analytics pipeline that processes e-commerce order data. The program must read a CSV file containing order records, perform essential calculations, and generate summary outputs for a business analyst.
+>
+> Specifically, your solution should:
+>
+> * Parse and validate structured input data from a CSV file.
+>
+>* Compute key metrics such as total revenue, average order value, order counts per category, and the top-performing category by revenue.
+>
+>* Filter and export high-value orders that exceed a specified threshold.
+>
+>* Output the computed analytics in a machine-readable format for downstream reporting.
+>
+>Your implementation should demonstrate clean code organization, correct use of functions and classes, and robust error handling for missing or malformed input data.
 
 ### Input
 
-A CSV file with a header row. Fields:
+The program will receive a CSV file containing e-commerce order data. The file includes a header row followed by one or more data rows. Each row represents a single order with the following fields:
 
 * `order_id` (string)
 * `customer_id` (string)
@@ -92,21 +104,21 @@ O-1015,C-001,Electronics,79.99,2,2025-03-07T16:45:00Z
 * Use **OOP** via an `Order` class with encapsulation.
 * Provide **unit tests** (`unittest` for Python, `JUnit` for Java).
 
-### Starter Code (optional)
 
-You may start from these minimal stubs.
+### Starter Code
+
+To help you get started, minimal template files are provided for both Python and Java implementations. You may build upon these stubs or write your own solution from scratch, as long as you meet all functional requirements.
 
 #### Python
 
-[models.py](starter-code/python/models.py)
-
-[process_orders.py](starter-code/python/process_orders.py)
+* [`models.py`](starter-code/python/models.py) – defines the `Order` class and related data structures.
+* [`process_orders.py`](starter-code/python/process_orders.py) – handles command-line arguments, file I/O, and analytics logic.
 
 #### Java
 
-[Order.java](starter-code/java/Order.java)
+* [`Order.java`](starter-code/java/Order.java) – defines the `Order` class and its core behavior.
+* [`OrderProcessor.java`](starter-code/java/OrderProcessor.java) – implements data parsing, analytics, and output generation.
 
-[OrderProcessor.java](starter-code/java/OrderProcessor.java)
 
 ### Auto‑Grading Rubric & Logic
 
