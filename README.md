@@ -1,6 +1,10 @@
 # Assessment
 
-## Scenario: Retail Analytics Mini‑Pipeline
+This technical assessment evaluates your ability to design and implement a small data-processing application. You'll demonstrate skills in problem decomposition, file handling, data transformation, and structured output generation using Python or Java. The exercise mirrors a real-world engineering task, where clarity, correctness, and code organization are key.
+
+Complete reference and starter files are available at: [https://github.com/macromia/skillpath-assessment](https://github.com/macromia/skillpath-assessment)
+
+## Scenario: Retail Analytics Pipeline
 
 >You’ve joined Acme Retail as a junior software developer. Your first assignment is to implement a small analytics pipeline that processes e-commerce order data. The program must read a CSV file containing order records, perform essential calculations, and generate summary outputs for a business analyst.
 >
