@@ -1,0 +1,15 @@
+{
+  "weights": {
+    "functions": 10,
+    "control_flow": 10,
+    "file_io": 25,
+    "error_handling": 15,
+    "oop": 10,
+    "unit_tests": 10,
+    "analytics_correctness": 20
+  },
+  "tolerances": {
+    "float": 0.01
+  },
+  "timeout_seconds": 20
+}
